@@ -169,7 +169,7 @@ public class Weird extends Actor
     
     public boolean cantMove()
     {
-      return getOneObjectAtOffset(0, 0, Barrel.class) != null;
+      return getOneObjectAtOffset(0, 0, Brick.class) != null;
     }
     
     public void showLifesLeft()
